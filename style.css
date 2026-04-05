@@ -1,0 +1,123 @@
+/*
+Theme Name: USM Theme
+Author: Яковлева Елена
+Description: Простая тема WordPress для лабораторной работы №3
+Version: 1.0
+*/
+
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background: #fff7fb;
+    color: #5c3b4a;
+}
+
+a {
+    color: #c45a8d;
+}
+
+a:hover {
+    color: #a93f73;
+}
+
+.site-header {
+    background: linear-gradient(135deg, #ffd6e7, #ffeaf4);
+    padding: 30px 20px;
+    border-bottom: 2px solid #f3bfd5;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.site-header a {
+    color: #7a3d5a;
+    text-decoration: none;
+}
+
+.site-footer {
+    background: #f8dbe7;
+    padding: 20px;
+    color: #7a3d5a;
+    text-align: center;
+    border-top: 2px solid #efbfd3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.layout {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.sidebar {
+    flex: 1;
+    background: #ffe6f0;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(214, 143, 175, 0.18);
+    border: 1px solid #f6c6da;
+}
+
+.main-content {
+    flex: 3;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(214, 143, 175, 0.12);
+    border: 1px solid #f8d5e3;
+}
+
+.post-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f1cada;
+}
+
+.post-item h3 {
+    margin-bottom: 10px;
+}
+
+.comments-area {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #f1cada;
+}
+
+input,
+textarea,
+button {
+    font: inherit;
+    border-radius: 12px;
+    border: 1px solid #eab7cc;
+    padding: 10px 12px;
+}
+
+button,
+input[type="submit"] {
+    background: #f7a8c8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #ea8bb3;
+}
+
+h2, h3 {
+    color: #7a3d5a;
+}
+
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+}
